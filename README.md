@@ -5,7 +5,7 @@ Code for the article
 
 > O. V. Adeyi, X. Zhang, A. Aligayev, M. A. Ediete, O. Olamide, A. Clement.
 > *Structural Non-Identifiability of Two-Element Windkessel Resistance and Compliance from Uncalibrated Photoplethysmography.*
-> Manuscript under review, *Computers in Biology and Medicine* (CIBM-D-26-06085).
+
 
 ## What this study shows
 
