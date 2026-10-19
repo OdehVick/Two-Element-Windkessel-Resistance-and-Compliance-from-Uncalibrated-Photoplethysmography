@@ -94,7 +94,11 @@ def accel_fraction(tails, fs=FS, win_s=0.04, poly=3, min_pts=60, trim=0.05):
 def synth_tails(tau, snr_db, hr=72, rng=None, n_beats=8):
     d = synth_case(1.1, tau / 1.1, level="L0", gain=1.0, offset=0.0, hr=hr,
                    rng=rng, snr_db=snr_db, fs=FS, n_beats=20, keep_last=14)
-    return _collect_tails(d["P"], detect_feet(d["P"], FS), diastole_start,
+    # Use the NOISY observation d["y"]. An earlier version passed the
+    # noise-free pressure d["P"] here, so the "noise" validation never saw
+    # noise; that error is disclosed in the manuscript and supplement (S1).
+    y = d["y"]
+    return _collect_tails(y, detect_feet(y, FS), diastole_start,
                           FS, n_beats=n_beats)
 
 

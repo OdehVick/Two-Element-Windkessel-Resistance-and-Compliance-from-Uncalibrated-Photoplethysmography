@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying article."
+title: "Structural Non-Identifiability of Two-Element Windkessel Resistance and Compliance from Uncalibrated Photoplethysmography"
+authors:
+  - family-names: Adeyi
+    given-names: Odeh Victor
+  - family-names: Zhang
+    given-names: Xiaoling
+  - family-names: Aligayev
+    given-names: Amil
+  - family-names: Ediete
+    given-names: Mary Abia
+  - family-names: Olamide
+    given-names: Olotu
+  - family-names: Clement
+    given-names: Agaba
+license: MIT
+repository-code: "https://github.com/OdehVick/Two-Element-Windkessel-Resistance-and-Compliance-from-Uncalibrated-Photoplethysmography"

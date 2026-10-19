@@ -1,9 +1,8 @@
-[README.md](https://github.com/user-attachments/files/33617597/README.md)
 # Two-element Windkessel resistance and compliance from uncalibrated photoplethysmography
 
 Code for the article
 
-> O. V. Adeyi, X. Zhang, A. Aligayev, M. A. Ediete, O. Olamide, A. Clement.
+> O. V. Adeyi
 > *Structural Non-Identifiability of Two-Element Windkessel Resistance and Compliance from Uncalibrated Photoplethysmography.*
 
 
